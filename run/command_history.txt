@@ -1,4 +1,0 @@
-/summon husk
-/give @p bread 23
-/summon minecraft:iron_golem
-/summon husk
