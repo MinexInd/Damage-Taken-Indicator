@@ -19,6 +19,7 @@ The mod generates a simple JSON config file. You can customize:
 *   **Scaling**: Make indicators as large or small as you like.
 *   **Positioning**: Offset the indicators to fit your custom UI.
 *   **Thresholds**: Decide exactly what counts as a "Critical Hit."
+For more details Check [CONFIG](https://github.com/MinexInd/damage-taken-indicator-template-1.21/blob/main/CONFIG.md)
 
 ### 🚀 Compatibility
 Tested and confirmed working on **Minecraft 1.21-1.21.5**. Requires **Fabric API**.
