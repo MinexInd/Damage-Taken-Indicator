@@ -1,11 +1,11 @@
 {
-  "damageColor": "RED",
-  "healingColor": "PURPLE",
+  "damageColor": "GOLD",
+  "healingColor": "GREEN",
   "criticalColor": "AQUA",
   "scale": 1.5,
-  "xOffset": -50,
-  "yOffset": 40,
-  "criticalThreshold": 1.0,
+  "xOffset": 0,
+  "yOffset": 0,
+  "criticalThreshold": 5.0,
   "enableAccumulation": true,
   "accumulationResetTicks": 100
 }

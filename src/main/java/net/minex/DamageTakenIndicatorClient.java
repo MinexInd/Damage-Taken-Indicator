@@ -136,14 +136,14 @@ public class DamageTakenIndicatorClient implements ClientModInitializer {
                 int color = (alphaInt << 24) | (baseColor & 0x00FFFFFF);
 
                 // Render with Scale
-                drawContext.getMatrices().push();
-                drawContext.getMatrices().translate(x + (width / 2.0f), y + (textRenderer.fontHeight / 2.0f), 0);
-                drawContext.getMatrices().scale(scale, scale, 1.0f);
-                drawContext.getMatrices().translate(-(x + (width / 2.0f)), -(y + (textRenderer.fontHeight / 2.0f)), 0);
+                drawContext.getMatrices().pushMatrix();
+                drawContext.getMatrices().translate(x + (width / 2.0f), y + (textRenderer.fontHeight / 2.0f));
+                drawContext.getMatrices().scale(scale, scale);
+                drawContext.getMatrices().translate(-(x + (width / 2.0f)), -(y + (textRenderer.fontHeight / 2.0f)));
                 
                 drawContext.drawTextWithShadow(textRenderer, text, x, y, color);
                 
-                drawContext.getMatrices().pop();
+                drawContext.getMatrices().popMatrix();
             }
         });
     }
