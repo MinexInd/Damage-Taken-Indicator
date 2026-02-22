@@ -22,7 +22,7 @@ The mod generates a simple JSON config file. You can customize:
 *   For more details Check [CONFIG](https://github.com/MinexInd/damage-taken-indicator-template-1.21/blob/main/CONFIG.md)
 
 ### 🚀 Compatibility
-Tested and confirmed working on **Minecraft 1.21-1.21.5**. Requires **Fabric API**.
+Tested and confirmed working on **Minecraft 1.21-1.21.11**. Requires **Fabric API**.
 
 ---
 *Licensed under the MIT License - Open Source and free to use in any modpack!*
